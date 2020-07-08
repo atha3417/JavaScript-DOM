@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Suit Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<h1>Suwit Jawa v2.0</h1>
+    <audio autoplay controls hidden id="audioID">
+        <source src="audio/click.mp3" type="audio/mp3">
+    </audio>
+    <audio autoplay controls hidden id="win">
+        <source src="audio/win.mp3" type="audio/mp3">
+    </audio>
+    <audio autoplay controls hidden id="lose">
+        <source src="audio/lose.mp3" type="audio/mp3">
+    </audio>
+    <audio autoplay controls hidden id="seri">
+        <source src="audio/ting.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <div class="area-komputer">
+            <img src="img/gajah.png" class="img-komputer">
+        </div>
+        <div class="info"></div>
+        <div class="area-player">
+            <ul>
+                <li>
+                    <img src="img/gajah.png" class="gajah" onclick="playAudio()">
+                </li>
+                <li>
+                    <img src="img/orang.png" class="orang" onclick="playAudio()">
+                </li>
+                <li>
+                    <img src="img/semut.png" class="semut" onclick="playAudio()">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
