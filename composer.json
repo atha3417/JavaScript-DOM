@@ -1,0 +1,13 @@
+{
+    "name": "atha/javascript-dom",
+    "description": "Just JavaScript code",
+    "keywords": ["js", "javascript", "javascript-dom"],
+    "license": "None",
+    "authors": [
+        {
+            "name": "Atha Tsaqif",
+            "email": "atha.3417@gmail.com",
+            "homepage": "http://example.com/"
+        }
+    ]
+}
